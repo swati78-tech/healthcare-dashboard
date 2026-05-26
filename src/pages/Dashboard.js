@@ -1,4 +1,4 @@
-import react,{useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import { Header } from '../components/layout/Header';
 import { SideBar } from '../components/layout/SideBar';
 import { DiagnosisHistory } from '../components/diagnosis/DiagnosisHistory';
