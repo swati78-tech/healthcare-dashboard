@@ -20,8 +20,6 @@ export const Dashboard = () => {
                 setPatientsData(Jessica);
             } catch(error) {
                 console.log(error);
-            } finally {
-                isLoading(false);
             }
         };
         getPatientDetails();
