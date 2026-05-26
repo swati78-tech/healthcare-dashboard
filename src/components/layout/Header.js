@@ -1,5 +1,3 @@
-import react, {useState, useEffect} from 'react';
-
 export const Header = () => {
     return <div className='header'>
         <div className='header-logo'>Tech.care</div>

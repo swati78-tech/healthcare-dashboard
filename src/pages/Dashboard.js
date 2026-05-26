@@ -10,7 +10,6 @@ import { fetchPatients } from '../services/api';
 export const Dashboard = () => {
     const [allPatients, setAllPatients] = useState(null)
     const [patientsData, setPatientsData] = useState(null);
-    const [loading, isLoading] = useState(true);
 
     useEffect(() => {
         const getPatientDetails = async () => {
@@ -33,7 +32,6 @@ export const Dashboard = () => {
             <div className='dashboard-section'>
             <SideBar allPatients={allPatients}/>
             <div className='main-section'>
-                {/* {loading ? <>Loading...</> : <DiagnosisHistory patientsData={patientsData} />} */}
                 <DiagnosisHistory patientsData={patientsData} />
                 <DiagnosticList patientsData={patientsData}/>
             </div>

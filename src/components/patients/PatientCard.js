@@ -1,5 +1,3 @@
-import react,{useState, useEffect} from 'react';
-
 export const PatientCard = ({name, gender, age, active, image}) => {
     return (
        <div className={`patient-card ${active ? "active" : ""}`}>

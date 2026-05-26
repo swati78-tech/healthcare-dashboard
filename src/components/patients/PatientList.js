@@ -1,4 +1,3 @@
-import react,{useState, useEffect} from 'react';
 import { PatientCard } from './PatientCard';
 
 export const PatientList = ({allPatients}) => {

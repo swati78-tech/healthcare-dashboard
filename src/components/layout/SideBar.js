@@ -1,4 +1,3 @@
-import react,{useState, useEffect} from 'react';
 import { PatientList } from '../patients/PatientList';
 
 export const SideBar = ({allPatients}) => {

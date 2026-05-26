@@ -1,4 +1,3 @@
-import react, {useState, useEffect} from 'react';
 import { BloodPressureChart } from './BloodPressureChart';
 import "./diagnosis.css"
 
@@ -55,8 +54,6 @@ export const DiagnosisHistory = ({patientsData}) => {
   </div>
 
 </div>
-
-      {/* <BloodPressureChart  diagnosisHistory={diagnosisHistory}/> */}
         <div className='vital-cards'>
             <div className='vital-card respiratory'>
                 <h3>Respiratory Rate</h3>

@@ -1,4 +1,3 @@
-import react, {useState, useEffect} from 'react';
 import "./diagnosis.css"
 
 export const DiagnosticList = ({ patientData }) => {
